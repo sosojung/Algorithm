@@ -1,7 +1,5 @@
 n = int(input())
 for i in range(n):
-    t = input()
-    t = t.upper()
-    r_t = t[::-1]
-    if t == r_t : print("Yes")
+    t = input().upper()
+    if t == t[::-1] : print("Yes")
     else : print("No")
