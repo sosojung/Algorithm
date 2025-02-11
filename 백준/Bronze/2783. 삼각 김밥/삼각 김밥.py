@@ -1,6 +1,5 @@
-min_p = []
 x, y = map(int, input().split())
-min_p.append(x*(1000/y))
+min_p = [x*(1000/y)]
 
 n = int(input())
 for i in range(n):
