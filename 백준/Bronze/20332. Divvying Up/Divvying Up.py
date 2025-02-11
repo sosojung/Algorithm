@@ -1,6 +1,5 @@
 input()
-w = list(map(int, input().split()))
-if sum(w) % 3 == 0 :
+if sum(list(map(int, input().split()))) % 3 == 0 :
     print("yes")
 else :
     print("no")
